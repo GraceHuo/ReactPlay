@@ -16,6 +16,10 @@ import { Provider } from "react-redux";
 import ReactReduxPage from "./Pages/ReactReduxPage";
 import RouterPage from "./Pages/RouterPage";
 import PureComponentPage from "./Pages/PureComponentPage";
+import HookPage from "./Pages/HookPage";
+import CustomHookPage from "./Pages/CustomHookPage";
+import UseMemoPage from "./Pages/UseMemoPage";
+import UseCallbackPage from "./Pages/UseCallBackPage";
 
 // ReactDOM.render(<App />, document.getElementById("root"));
 // ReactDOM.render(<Jsx />, document.getElementById("root"));
@@ -32,8 +36,12 @@ import PureComponentPage from "./Pages/PureComponentPage";
 //   </Provider>,
 //   document.getElementById("root")
 // );
-ReactDOM.render(<RouterPage />, document.getElementById("root"));
-ReactDOM.render(<PureComponentPage />, document.getElementById("root"));
+// ReactDOM.render(<RouterPage />, document.getElementById("root"));
+// ReactDOM.render(<PureComponentPage />, document.getElementById("root"));
+// ReactDOM.render(<HookPage />, document.getElementById("root"));
+// ReactDOM.render(<CustomHookPage />, document.getElementById("root"));
+// ReactDOM.render(<UseMemoPage />, document.getElementById("root"));
+ReactDOM.render(<UseCallbackPage />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
